@@ -1,0 +1,79 @@
+2018-04-25 14:13:16  [ AWT-EventQueue-0:0 ] - [ INFO ]  用户开启服务器
+2018-04-25 14:13:17  [ Thread-1:135 ] - [ INFO ]  成功绑定端口8089
+2018-04-25 14:13:17  [ Thread-1:138 ] - [ INFO ]  服务器启动成功
+2018-04-25 14:13:20  [ Thread-1:3782 ] - [ INFO ]  收到了请求...
+2018-04-25 14:13:20  [ Thread-1:3783 ] - [ INFO ]  该请求的头格式为
+GET /home HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Idea-c020325e=6acdb340-635e-4efe-a3fd-221657e1b347
+
+
+2018-04-25 14:13:20  [ Thread-1:3784 ] - [ INFO ]  启动子线程...
+2018-04-25 14:13:20  [ Thread-2:3787 ] - [ INFO ]  method: GET
+2018-04-25 14:13:20  [ Thread-2:3787 ] - [ INFO ]  uri: /home
+2018-04-25 14:13:20  [ Thread-2:3788 ] - [ INFO ]  protocol: HTTP/1.1
+2018-04-25 14:13:20  [ Thread-2:3788 ] - [ INFO ]  Host:  localhost:8089
+2018-04-25 14:13:20  [ Thread-2:3788 ] - [ INFO ]  Connection:  keep-alive
+2018-04-25 14:13:20  [ Thread-2:3789 ] - [ INFO ]  Upgrade-Insecure-Requests:  1
+2018-04-25 14:13:20  [ Thread-2:3789 ] - [ INFO ]  User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+2018-04-25 14:13:20  [ Thread-2:3789 ] - [ INFO ]  Accept:  text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+2018-04-25 14:13:21  [ Thread-2:4794 ] - [ INFO ]  Accept-Encoding:  gzip, deflate, br
+2018-04-25 14:13:21  [ Thread-2:4795 ] - [ INFO ]  Accept-Language:  zh-CN,zh;q=0.9
+2018-04-25 14:13:21  [ Thread-2:4797 ] - [ INFO ]  Cookie:  Idea-c020325e=6acdb340-635e-4efe-a3fd-221657e1b347
+2018-04-25 14:13:21  [ Thread-2:4798 ] - [ INFO ]  得到了uri: /home
+2018-04-25 14:13:21  [ Thread-2:4802 ] - [ INFO ]  成功添加Handler handler.impl.HomeHandler
+2018-04-25 14:13:21  [ Thread-2:4803 ] - [ INFO ]  成功添加Handler handler.impl.PicHandler
+2018-04-25 14:13:21  [ Thread-2:4803 ] - [ INFO ]  进入了handler--->HomeHandler
+2018-04-25 14:13:21  [ Thread-2:4810 ] - [ INFO ]  生成响应
+HTTP/1.1 200 OK
+Server: 
+Content-Type: text/html
+Date: Wed Apr 25 14:13:21 CST 2018
+Content-Length: 290
+
+
+2018-04-25 14:13:21  [ Thread-1:4849 ] - [ INFO ]  有流写出...
+2018-04-25 14:13:21  [ Thread-1:4855 ] - [ INFO ]  收到了请求...
+2018-04-25 14:13:21  [ Thread-1:4856 ] - [ INFO ]  该请求的头格式为
+GET /res/garfield.jpeg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/home
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Idea-c020325e=6acdb340-635e-4efe-a3fd-221657e1b347
+
+
+2018-04-25 14:13:22  [ Thread-1:5860 ] - [ INFO ]  启动子线程...
+2018-04-25 14:13:22  [ Thread-3:5861 ] - [ INFO ]  method: GET
+2018-04-25 14:13:22  [ Thread-3:5862 ] - [ INFO ]  uri: /res/garfield.jpeg
+2018-04-25 14:13:22  [ Thread-3:5862 ] - [ INFO ]  protocol: HTTP/1.1
+2018-04-25 14:13:22  [ Thread-3:5862 ] - [ INFO ]  Host:  localhost:8089
+2018-04-25 14:13:22  [ Thread-3:5863 ] - [ INFO ]  Connection:  keep-alive
+2018-04-25 14:13:22  [ Thread-3:5863 ] - [ INFO ]  User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+2018-04-25 14:13:22  [ Thread-3:5863 ] - [ INFO ]  Accept:  image/webp,image/apng,image/*,*/*;q=0.8
+2018-04-25 14:13:22  [ Thread-3:5863 ] - [ INFO ]  Referer:  http://localhost:8089/home
+2018-04-25 14:13:23  [ Thread-3:6865 ] - [ INFO ]  Accept-Encoding:  gzip, deflate, br
+2018-04-25 14:13:23  [ Thread-3:6866 ] - [ INFO ]  Accept-Language:  zh-CN,zh;q=0.9
+2018-04-25 14:13:23  [ Thread-3:6866 ] - [ INFO ]  Cookie:  Idea-c020325e=6acdb340-635e-4efe-a3fd-221657e1b347
+2018-04-25 14:13:23  [ Thread-3:6866 ] - [ INFO ]  得到了uri: /res/garfield.jpeg
+2018-04-25 14:13:23  [ Thread-3:6867 ] - [ INFO ]  进入了handler--->PicHandler
+2018-04-25 14:13:23  [ Thread-3:6870 ] - [ INFO ]  生成响应
+HTTP/1.1 200 OK
+Server: 
+Content-Type: image/webp
+Date: Wed Apr 25 14:13:23 CST 2018
+
+
+2018-04-25 14:13:25  [ Thread-1:8885 ] - [ INFO ]  有流写出...
+2018-04-25 14:13:32  [ AWT-EventQueue-0:15268 ] - [ INFO ]  端口关闭成功.
+2018-04-25 14:13:32  [ AWT-EventQueue-0:15271 ] - [ INFO ]  用户关闭服务器
+2018-04-25 14:13:32  [ AWT-EventQueue-0:15272 ] - [ INFO ]  谢谢使用

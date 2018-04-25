@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+    <!-- 该xml用以配置所有的uri和相关handler的映射 -->
+    <handler>
+        <!-- 主页的handler -->
+        <handler-class>handler.impl.HomeHandler</handler-class>
+        <url-patten>/home</url-patten>
+    </handler>
+    <handler>
+        <!-- 图片的handler -->
+        <handler-class>handler.impl.PicHandler</handler-class>
+        <url-patten>/res/garfield.jpeg</url-patten>
+    </handler>
+
+    <!-- 对于找不到页面的情况无需配置404页面的handler，直接进入404页面即可 -->
+</server>
