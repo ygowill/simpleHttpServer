@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="simpleHttpServer_jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/simpleHttpServer_jar/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/simpleHttpServer_jar/simpleHttpServer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/simpleHttpServer_jar/log4j-1.2.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
