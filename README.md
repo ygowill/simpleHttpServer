@@ -9,6 +9,7 @@
     ├── Log
     │   ├── error.log
     │   └── log.log
+    ├── README.md
     ├── out
     │   ├── artifacts
     │   │   └── simpleHttpServer_jar
@@ -25,8 +26,8 @@
     │           │   ├── HttpServerUI$1.class
     │           │   ├── HttpServerUI$2.class
     │           │   ├── HttpServerUI$3.class
-    │           │   ├── HttpServerUI$4.class    
-    │           │   └── HttpServerUI.class
+    │           │   ├── HttpServerUI$4.class
+    │           │   └── HttpServerUI.class
     │           ├── context
     │           │   ├── Context.class
     │           │   ├── Request.class
@@ -44,12 +45,15 @@
     │           │   │   └── AbstractHandler.class
     │           │   └── impl
     │           │       ├── HomeHandler.class
-    │           │       └── NotFoundHandler.class
+    │           │       ├── NotFoundHandler.class
+    │           │       └── PicHandler.class
     │           ├── home.html
     │           ├── lib
     │           │   ├── dom4j-1.6.1.jar
     │           │   └── log4j-1.2.17.jar
     │           ├── log4j.properties
+    │           ├── res
+    │           │   └── garfield.jpeg
     │           ├── server
     │           │   └── Server.class
     │           ├── server.xml
@@ -58,7 +62,9 @@
     │           │   ├── TextAreaLogAppender.class
     │           │   └── XMLUtil.class
     │           └── web.xml
+    ├── project.uml
     ├── simpleHttpServer.iml
+    ├── simpleHttpServer.udb
     └── src
         ├── 404.html
         ├── META-INF
@@ -83,12 +89,15 @@
         │   │   └── AbstractHandler.java
         │   └── impl
         │       ├── HomeHandler.java
-        │       └── NotFoundHandler.java
+        │       ├── NotFoundHandler.java
+        │       └── PicHandler.java
         ├── home.html
         ├── lib
         │   ├── dom4j-1.6.1.jar
         │   └── log4j-1.2.17.jar
         ├── log4j.properties
+        ├── res
+        │   └── garfield.jpeg
         ├── server
         │   └── Server.java
         ├── server.xml
@@ -159,3 +168,9 @@
 ## OUT
 
 **out**文件夹内的**production**文件夹内为源码编译出的class文件，**artifacts**文件夹内为项目打包后的*jar*包
+
+## 添加页面或操作
+
+这个项目为了良好的扩展性使用了一通自己都快看不懂的操作，简而言之，为不同的对象创建不同的handler即可，就像handler/impl文件夹内演示的那样,为html内的不同的对象创建handler来完成不同的操作，然后将此handler加入web.xml内即可
+
+🎉完结撒花🎉
